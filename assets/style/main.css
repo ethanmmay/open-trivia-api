@@ -6,3 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.title {
+    color: #f2f2f2;
+    font-family: 'Heebo', sans-serif;
+    font-size:xx-large;
+    border-bottom: 2px solid white;
+}

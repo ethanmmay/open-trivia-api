@@ -16,7 +16,7 @@ export default class Question {
     get Template() {
 
         let currentTemplate = `
-            <div class="card ${this.answer == "unanswered" ? 'bg-light' : this.answer == "correct" ? 'bg-success' : 'bg-danger'} col-sm-6 p-3 question m-3 text-light"> 
+            <div class="card ${this.answer == "unanswered" ? 'bg-light' : this.answer == "correct" ? 'bg-success' : 'bg-danger'} col-sm-6 p-3 question m-5 text-light"> 
                 <h4 class="text-dark">${this.category}</h4>
                 <h5 class="text-dark">${this.question}</h5>
                 <button class="btn btn-dark my-1" ${this.answer != "unanswered" ? 'disabled' : ''} id="${this.id}-button0" onclick="app.questionsController.submit('${this.correctAnswer}', '${this.id}', 'button0')">${this.correctAnswer}</button>
