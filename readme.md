@@ -1,6 +1,8 @@
 open-trivia-api
 ============
 
+# A website for answering trivia questions from Open Trivia DB 
+
 ### Get Started
 
 ```terminal
